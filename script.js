@@ -37,7 +37,7 @@ window.onload = function () {
     videoBg.play().catch(() => {});
   }
 
-  //    Fetch Api Function
+  //    Fetch Api Func
   async function fetchWeather(city) {
     const response = await fetch(
       `https://api.weatherapi.com/v1/current.json?key=b237dfc7533247e784c180834260906&q=${city}`,
@@ -79,3 +79,4 @@ window.onload = function () {
 
   fetchWeather("Karachi");
 };
+
